@@ -2,6 +2,7 @@
 
 A simple **custom tokenizer** built in Node.js to demonstrate how tokenization works for natural language processing tasks.  
 It supports:
+
 - Creating a vocabulary from text
 - Adding special tokens (`<PAD>`, `<UNK>`, `<SOL>`, `<EOL>`)
 - Encoding text to token IDs
@@ -23,9 +24,21 @@ custom-tokenizer/
 
 ---
 
+## Quick Example
+
+```js
+const Tokenizer = require("./tokenizer");
+const tok = new Tokenizer();
+console.log(tok.encode("hello world")); // [ 2, 5, 6, 3 ]
+console.log(tok.decode([2, 5, 6, 3])); // hello world
+```
+
+---
+
 ## ⚙️ Installation
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/yourusername/custom-tokenizer.git
    cd custom-tokenizer
@@ -48,13 +61,13 @@ Run `train.js` to build your vocabulary from `training.txt`:
 node train.js
 ```
 
-* The tokenizer will read words from `training.txt` and create/update `vocab.json`.
-* Special tokens are always added:
+- The tokenizer will read words from `training.txt` and create/update `vocab.json`.
+- Special tokens are always added:
 
-  * `<PAD>` → padding token
-  * `<UNK>` → unknown words
-  * `<SOL>` → start of line
-  * `<EOL>` → end of line
+  - `<PAD>` → padding token
+  - `<UNK>` → unknown words
+  - `<SOL>` → start of line
+  - `<EOL>` → end of line
 
 ---
 
@@ -76,10 +89,10 @@ console.log(encoded);
 [ 2, 5, 6, 3 ]
 ```
 
-* `2` → `<SOL>`
-* `5` → "hello"
-* `6` → "world"
-* `3` → `<EOL>`
+- `2` → `<SOL>`
+- `5` → "hello"
+- `6` → "world"
+- `3` → `<EOL>`
 
 ---
 
@@ -125,17 +138,17 @@ unknown words will be replaced with <UNK>
 
 ## ❓ Notes
 
-* If you decode a token ID not in the vocabulary, it will output `<UNK>`.
-* Vocabulary is saved to `vocab.json` so you can reuse it later.
-* You can keep retraining with more data to grow the vocabulary.
+- If you decode a token ID not in the vocabulary, it will output `<UNK>`.
+- Vocabulary is saved to `vocab.json` so you can reuse it later.
+- You can keep retraining with more data to grow the vocabulary.
 
 ---
 
 ## 🛠️ Future Improvements
 
-* Add **byte-pair encoding** (BPE) for subword tokenization
-* Add **case-insensitive** option
-* Add support for **punctuation handling**
+- Add **byte-pair encoding** (BPE) for subword tokenization
+- Add **case-insensitive** option
+- Add support for **punctuation handling**
 
 ---
 
