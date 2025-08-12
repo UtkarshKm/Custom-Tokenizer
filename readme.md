@@ -1,12 +1,17 @@
-# 📝 Custom Tokenizer
 
-A simple **custom tokenizer** built in Node.js to demonstrate how tokenization works for natural language processing tasks.  
-It supports:
 
-- Creating a vocabulary from text
-- Adding special tokens (`<PAD>`, `<UNK>`, `<SOL>`, `<EOL>`)
-- Encoding text to token IDs
-- Decoding token IDs back to text
+  # 📝 Custom Tokenizer  — Word-Level Tokenization
+
+This tokenizer works at the **word level**, meaning:
+
+- It **splits text by spaces** into whole words.
+- Each **unique word** gets a unique integer ID in the vocabulary.
+- Special tokens are added for extra meaning:
+  - `<PAD>` → Padding for sequences
+  - `<UNK>` → Unknown words (not in vocab)
+  - `<SOL>` → Start of line
+  - `<EOL>` → End of line
+
 
 ---
 
