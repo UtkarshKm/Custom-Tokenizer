@@ -207,3 +207,7 @@ button:hover {
     max-height: 300px;
     overflow-y: auto;
 }
+
+#text-input{
+    width: 95%;
+}
