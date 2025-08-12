@@ -40,7 +40,7 @@ console.log(tok.decode([2, 5, 6, 3])); // hello world
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/custom-tokenizer.git
+   git clone https://github.com/UtkarshKm/Custom-Tokenizer.git
    cd custom-tokenizer
    ```
 
