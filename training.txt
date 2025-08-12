@@ -1,0 +1,27 @@
+random text for training
+the quick brown fox jumps over the lazy dog
+hello world this is a tokenizer test
+how are you doing today
+i am learning natural language processing
+this tokenizer can encode and decode text
+numbers like one two three four five six seven eight nine ten
+special symbols ! @ # $ % ^ & * ( )
+let us try some random sentences for training
+artificial intelligence and machine learning are powerful tools
+openai builds advanced language models
+cats chase mice dogs bark loudly
+reading books improves knowledge
+programming in javascript python and java
+coffee is better than tea for some people
+i will go to the market tomorrow morning
+weather today is sunny and bright
+clouds gather before it rains
+music can lift your mood instantly
+travel broadens the mind and soul
+practice makes perfect in every skill
+the sky is blue and the sun is shining
+the moon is full and the stars are bright
+it is a beautiful day today
+a beautiful day for a walk
+a beautiful day for a picnic
+hello my name good js ai bot
