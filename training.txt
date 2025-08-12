@@ -1,4 +1,8 @@
 customs
+hello
+ my name is utkarsh
+ i am a student
+ i am a programmer
 rainbow
 roulette
 decline
@@ -150,8 +154,6 @@ examined
 encoding
 heroes
 painted
-lycos
-zdnet
 artwork
 cosmetic
 resulted
